@@ -14,38 +14,40 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Username" />
+        android:text="@string/username" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="text"
         android:id="@+id/editTextUsername" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="email" />
+        android:text="@string/email" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
         android:id="@+id/editTextEmail" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Password" />
+        android:text="@string/psswd" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:password="true"
+        android:inputType="textPassword"
         android:id="@+id/editTextPassword" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="@string/register"
         android:id="@+id/buttonRegister" />
 
 

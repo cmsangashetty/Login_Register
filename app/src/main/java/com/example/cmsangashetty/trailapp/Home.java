@@ -3,9 +3,8 @@ package com.example.cmsangashetty.trailapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.TextView;
+
 public class Home extends AppCompatActivity {
 
     private TextView textView;
@@ -19,6 +18,6 @@ public class Home extends AppCompatActivity {
 
         Intent intent = getIntent();
 
-        textView.setText("Welcome User " + intent.getStringExtra(Login.KEY_USERNAME));
+        textView.setText("@string/welcome " + intent.getStringExtra(Login.KEY_USERNAME));
     }
 }

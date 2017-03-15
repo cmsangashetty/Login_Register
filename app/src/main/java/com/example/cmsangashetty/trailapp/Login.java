@@ -4,9 +4,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -19,10 +16,8 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 public class Login extends AppCompatActivity implements View.OnClickListener {
 
@@ -79,7 +74,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                 }){
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
-                Map<String,String> map = new HashMap<String,String>();
+                Map<String,String> map = new HashMap< >();
                 map.put(KEY_USERNAME,username);
                 map.put(KEY_PASSWORD,password);
                 return map;
