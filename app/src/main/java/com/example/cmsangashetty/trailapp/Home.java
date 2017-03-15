@@ -17,7 +17,6 @@ public class Home extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.textViewUsername);
 
         Intent intent = getIntent();
-
         textView.setText("@string/welcome " + intent.getStringExtra(Login.KEY_USERNAME));
     }
 }
