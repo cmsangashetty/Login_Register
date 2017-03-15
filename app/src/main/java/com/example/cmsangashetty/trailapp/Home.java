@@ -18,6 +18,6 @@ public class Home extends AppCompatActivity {
 
         Intent intent = getIntent();
 
-        textView.setText("Welcome User " + intent.getStringExtra(Login.KEY_USERNAME));
+        textView.setText("Welcome " + intent.getStringExtra(Login.KEY_USERNAME));
     }
 }
