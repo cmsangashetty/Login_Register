@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">Login_Register</string>
-    <string name="mca">MCA-SJCE</string>
+    <string name="app_name">MCA-SJCE</string>
+    <string name="mcasjce">MCA-SJCE</string>
+    <string name="mca">Master of Computer Applications</string>
+    <string name="sjce">Sri Jayachamarajendra College of Engineering, Mysuru</string>
     <string name="username">Username</string>
     <string name="psswd">Password</string>
     <string name="email">E-Mail</string>
@@ -26,4 +28,8 @@
     <string name="title_messages">Messages</string>
     <string name="title_friends">Friends</string>
     <string name="title_home">Home</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>

@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/mca"
+        android:text="@string/mcasjce"
         android:textSize="45sp"
         android:layout_centerInParent="true"
         android:textColor="#4527A0"

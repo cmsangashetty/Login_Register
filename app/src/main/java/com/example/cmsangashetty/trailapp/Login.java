@@ -86,7 +86,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     }
 
     private void openProfile(){
-        Intent intent = new Intent(this, Home.class);
+        Intent intent = new Intent(this, Main2Activity.class);
         intent.putExtra(KEY_USERNAME, username);
         startActivity(intent);
     }
